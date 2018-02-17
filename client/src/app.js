@@ -11,7 +11,7 @@ import SignUpPage from './pages/SignUp';
 import SignInPage from './pages/SignIn';
 import PasswordForgetPage from './components/PasswordForget';
 import HomePage from './pages/Home';
-import Form from "./pages/Form";
+import Form from "./pages/form";
 import ItemsList from "./pages/ItemsList"
 import AccountPage from './components/Account';
 import * as routes from './constants/routes';

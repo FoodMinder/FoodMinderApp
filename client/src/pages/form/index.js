@@ -1,1 +1,1 @@
-export { default } from "./form.js";
+export { default } from "./Form.js";
