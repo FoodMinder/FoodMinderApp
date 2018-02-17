@@ -13,14 +13,14 @@
     "installDeps": "yarn && cd client && yarn",
     "heroku-prebuild": "cd client/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
-  "author": "",
+  "author": "Tasnuva Huda & Kevin Towner",
   "license": "ISC",
+  "engines": {
+    "node": "6.10.2"
+  },
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0",
-    "engines": {
-      "node": "6.10.2"
-  
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -33,6 +33,8 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
-    "webpack-config": "^7.5.0"
+    "webpack-config": "^7.5.0",
+    
+  },
   }
 }
