@@ -19,6 +19,9 @@ const NavigationAuth = () =>
 <li role="presentation" class="active"><a href="/">FoodMinder</a></li>
 <li role="presentation" class="active"><a href="/home">Home</a></li>
 <li role="presentation" class="active"><a href="/account">Account</a></li>
+<li role="presentation" class="active"><a href="/signout">Sign Out</a></li>
+
+
 </ul>
 
 const NavigationNonAuth = () =>
