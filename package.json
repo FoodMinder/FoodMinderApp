@@ -11,7 +11,7 @@
     "seed": "node scripts/seedDB.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "installDeps": "yarn && cd client && yarn"
-    },
+  },
   "author": "Tasnuva Huda & Kevin Towner",
   "license": "ISC",
   "engines": {
@@ -29,7 +29,6 @@
     "moment": "^2.20.1",
     "mongoose": "^4.11.7",
     "passport": "^0.4.0",
-    "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "webpack-config": "^7.5.0"
   }
