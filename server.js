@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // Serve up static assets
-app.use(express.static("client/build"));
+app.use('/static', express.static(path.join(__dirname, 'client/build')));
 // Add routes, both API and view
 
 //**change server.js file to amend the new controllers (local and external)
