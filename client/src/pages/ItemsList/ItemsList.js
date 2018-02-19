@@ -2,11 +2,9 @@ import React from "react";
 import Jumbotron from "../../components/Jumbotron";
 import DeleteBtn from "../../components/DeleteBtn";
 import API from "../../utils/API";
-import { Col, Row, Container } from "../../components/Grid";
+import { Container } from "../../components/Grid";
 import { List, ListItem } from "../../components/List";
 import { firebase } from "../../firebase";
-import  withAuthorization from "../../components/withAuthorization";
-import withAuthentication from "../../components/withAuthentication";
 
 class ItemsList extends React.Component {
   constructor(props, { authUser }) {
@@ -46,7 +44,7 @@ class ItemsList extends React.Component {
     return (
       <Container fluid>
       <Jumbotron fluid>
-      <div className="item active"> <img src="https://www.agapichristinard.com/wp-content/uploads/2016/06/healthy-background-6.jpg" />
+      <div className="item active"> <img src="https://www.agapichristinard.com/wp-content/uploads/2016/06/healthy-background-6.jpg" alt="vegetables"/>
       <div className="carousel-caption">
       <div className="carousel-caption-inner">
               <h1>Food Items on the List</h1>
@@ -78,7 +76,6 @@ class ItemsList extends React.Component {
   }
 }
 
-const authCondition = (authUser) => !!authUser;
 
 export default ItemsList;
 

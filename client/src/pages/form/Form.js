@@ -1,11 +1,10 @@
 import React from "react";
 import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
-import { Col, Row, Container } from "../../components/Grid";
+import { Container } from "../../components/Grid";
 import { Input, FormBtn } from "../../components/Form";
 import { NavLink } from 'react-router-dom';
 import { firebase } from "../../firebase";
-import withAuthorization from "../../components/withAuthorization";
 
 
 class Form extends React.Component {
@@ -61,7 +60,7 @@ render() {
       
 <Container fluid>
 <Jumbotron fluid>
-<div className="item active"> <img src="https://www.agapichristinard.com/wp-content/uploads/2016/06/healthy-background-6.jpg" />
+<div className="item active"> <img src="https://www.agapichristinard.com/wp-content/uploads/2016/06/healthy-background-6.jpg" alt="vegetables"/>
 <div className="carousel-caption">
 <div className="carousel-caption-inner">
 <h1>Add Food Product</h1>
@@ -96,5 +95,4 @@ render() {
   }
 }
 
-const authCondition = (authUser) => !!authUser
 export default Form;

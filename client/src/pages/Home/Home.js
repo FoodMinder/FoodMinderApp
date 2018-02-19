@@ -11,7 +11,7 @@ const HomePage = () =>
      <Jumbotron fluid>
        <Container fluid>
        
-                <div className="item active"> <img src="https://www.agapichristinard.com/wp-content/uploads/2016/06/healthy-background-6.jpg" />
+                <div className="item active"> <img src="https://www.agapichristinard.com/wp-content/uploads/2016/06/healthy-background-6.jpg" alt="vegetables"/>
                     <div className="carousel-caption">
                         <div className="carousel-caption-inner">
                             <h1>Welcome</h1>
